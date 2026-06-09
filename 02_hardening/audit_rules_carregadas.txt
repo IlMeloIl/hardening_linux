@@ -1,0 +1,6 @@
+-w /etc/passwd -p wa -k identity
+-w /etc/group -p wa -k identity
+-w /etc/shadow -p wa -k identity
+-w /etc/sudoers -p wa -k privilege
+-w /etc/ssh/sshd_config -p wa -k ssh_config
+-w /etc/ssh/sshd_config.d -p wa -k ssh_config

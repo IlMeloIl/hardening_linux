@@ -1,0 +1,4 @@
+Métrica          Antes  Depois
+Hardening index  63     70
+Warnings         1      0
+Suggestions      45     39

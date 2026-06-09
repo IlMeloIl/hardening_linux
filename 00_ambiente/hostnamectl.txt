@@ -1,0 +1,14 @@
+ Static hostname: av4-hardening
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: e170625425614910803f454ec3b33a08
+         Boot ID: 51957f92c72347dd8673b59371bb70b8
+  Virtualization: oracle
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 6.8.0-124-generic
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+Firmware Version: VirtualBox
+   Firmware Date: Fri 2006-12-01
+    Firmware Age: 19y 6month 1w 1d

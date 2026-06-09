@@ -1,0 +1,7 @@
+# AV4 - Política de qualidade de senha
+minlen = 12
+dcredit = -1
+ucredit = -1
+ocredit = -1
+lcredit = -1
+retry = 3

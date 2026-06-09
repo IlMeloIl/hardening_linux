@@ -1,0 +1,22 @@
+● auditd.service - Security Auditing Service
+     Loaded: loaded (/usr/lib/systemd/system/auditd.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-06-09 13:01:17 UTC; 7min ago
+       Docs: man:auditd(8)
+             https://github.com/linux-audit/audit-documentation
+   Main PID: 554 (auditd)
+      Tasks: 2 (limit: 2263)
+     Memory: 1.2M (peak: 2.6M)
+        CPU: 38ms
+     CGroup: /system.slice/auditd.service
+             └─554 /sbin/auditd
+
+Jun 09 13:01:17 av4-hardening augenrules[630]: enabled 1
+Jun 09 13:01:17 av4-hardening augenrules[630]: failure 1
+Jun 09 13:01:17 av4-hardening augenrules[630]: pid 554
+Jun 09 13:01:17 av4-hardening augenrules[630]: rate_limit 0
+Jun 09 13:01:17 av4-hardening augenrules[630]: backlog_limit 8192
+Jun 09 13:01:17 av4-hardening augenrules[630]: lost 0
+Jun 09 13:01:17 av4-hardening augenrules[630]: backlog 4
+Jun 09 13:01:17 av4-hardening augenrules[630]: backlog_wait_time 60000
+Jun 09 13:01:17 av4-hardening augenrules[630]: backlog_wait_time_actual 0
+Jun 09 13:01:17 av4-hardening systemd[1]: Started auditd.service - Security Auditing Service.

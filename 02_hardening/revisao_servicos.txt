@@ -1,0 +1,3 @@
+avahi-daemon não está instalado
+cups não está instalado
+bluetooth não está instalado

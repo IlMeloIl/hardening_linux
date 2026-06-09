@@ -1,0 +1,8 @@
+# AV4 - Hardening SSH
+PermitRootLogin no
+MaxAuthTries 3
+LoginGraceTime 30
+X11Forwarding no
+AllowTcpForwarding no
+ClientAliveInterval 300
+ClientAliveCountMax 2
