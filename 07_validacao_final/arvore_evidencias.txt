@@ -1,0 +1,91 @@
+/home/aluno/av4-hardening
+├── 00_ambiente
+│   ├── data_execucao.txt
+│   ├── hostnamectl.txt
+│   ├── interfaces_rede.txt
+│   ├── kernel.txt
+│   ├── usuario.txt
+│   └── versao_ubuntu.txt
+├── 01_antes
+│   ├── firewall_antes.txt
+│   ├── lynis_antes.log
+│   ├── lynis-report-antes.dat
+│   ├── lynis_tela_antes.txt
+│   ├── portas_antes.txt
+│   ├── resumo_lynis_antes.txt
+│   ├── servicos_ativos_antes.txt
+│   └── sysctl_antes.txt
+├── 02_hardening
+│   ├── auditd_status.txt
+│   ├── audit_rules_carregadas.txt
+│   ├── firewall_configurado.txt
+│   ├── login_defs_aplicado.txt
+│   ├── login.defs.bak
+│   ├── portas_pos_hardening.txt
+│   ├── pwquality_aplicado.txt
+│   ├── pwquality.conf.bak
+│   ├── revisao_servicos.txt
+│   ├── servicos_ativos_pos_hardening.txt
+│   ├── sshd_config.bak
+│   ├── ssh_hardening_aplicado.txt
+│   ├── ssh_status.txt
+│   ├── sysctl_aplicacao.txt
+│   ├── sysctl.conf.bak
+│   └── sysctl_verificacao.txt
+├── 03_depois
+│   ├── lynis_depois.log
+│   ├── lynis-report-depois.dat
+│   ├── lynis_tela_depois.txt
+│   └── resumo_lynis_depois.txt
+├── 04_comparacao
+│   ├── comparativo_lynis.csv
+│   └── comparativo_lynis_tabela.txt
+├── 05_hardening_extra
+│   ├── acct_status.txt
+│   ├── aide_arquivos.txt
+│   ├── aideinit_saida.txt
+│   ├── banner_issue_net.txt
+│   ├── banner_issue.txt
+│   ├── coredump_limits.txt
+│   ├── coredump_sysctl.txt
+│   ├── fail2ban_service_status.txt
+│   ├── fail2ban_sshd_status.txt
+│   ├── fail2ban_status.txt
+│   ├── login.defs.bak.extra
+│   ├── pacotes_extra_instalados.txt
+│   ├── password_hash_rounds.txt
+│   ├── protocolos_bloqueados.txt
+│   ├── ssh_hardening_extra.txt
+│   ├── ssh_status_extra.txt
+│   ├── sysctl_coredump_aplicacao.txt
+│   ├── sysstat_default.txt
+│   ├── sysstat_status.txt
+│   ├── umask_login_defs.txt
+│   ├── umask_profiled.txt
+│   └── usb_storage_bloqueado.txt
+├── 06_depois_extra
+│   ├── comparativo_lynis_3_etapas.csv
+│   ├── comparativo_lynis_3_etapas_tabela.txt
+│   ├── lynis_depois_extra.log
+│   ├── lynis-report-depois-extra.dat
+│   ├── lynis_tela_depois_extra.txt
+│   └── resumo_lynis_depois_extra.txt
+└── 07_validacao_final
+    ├── apparmor_aa_status.txt
+    ├── apparmor_status.txt
+    ├── arvore_evidencias.txt
+    ├── auditd_estado_final.txt
+    ├── auditd_regras_finais.txt
+    ├── auditd_status_final.txt
+    ├── debsums_resultado.txt
+    ├── fail2ban_sshd_final.txt
+    ├── fail2ban_status_final.txt
+    ├── fail2ban_status_servico_final.txt
+    ├── pam_pwquality_verificacao.txt
+    ├── portas_finais.txt
+    ├── ssh_config_efetiva.txt
+    ├── sysctl_final.txt
+    ├── ufw_regras_numeradas.txt
+    └── ufw_status_final.txt
+
+9 directories, 80 files

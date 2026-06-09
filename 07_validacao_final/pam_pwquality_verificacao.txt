@@ -1,0 +1,1 @@
+25:password	requisite			pam_pwquality.so retry=3

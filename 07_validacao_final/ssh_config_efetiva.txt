@@ -1,0 +1,14 @@
+logingracetime 30
+maxauthtries 3
+maxsessions 2
+clientaliveinterval 300
+clientalivecountmax 2
+permitrootlogin no
+pubkeyauthentication yes
+passwordauthentication yes
+kbdinteractiveauthentication no
+x11forwarding no
+tcpkeepalive no
+allowtcpforwarding no
+allowagentforwarding no
+loglevel VERBOSE

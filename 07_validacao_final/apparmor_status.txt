@@ -1,0 +1,13 @@
+● apparmor.service - Load AppArmor profiles
+     Loaded: loaded (/usr/lib/systemd/system/apparmor.service; enabled; preset: enabled)
+     Active: active (exited) since Tue 2026-06-09 19:02:58 UTC; 3min 33s ago
+       Docs: man:apparmor(7)
+             https://gitlab.com/apparmor/apparmor/wikis/home/
+   Main PID: 461 (code=exited, status=0/SUCCESS)
+        CPU: 148ms
+
+Jun 09 19:02:57 av4-hardening systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+Jun 09 19:02:57 av4-hardening apparmor.systemd[461]: Restarting AppArmor
+Jun 09 19:02:57 av4-hardening apparmor.systemd[461]: /lib/apparmor/apparmor.systemd: 148: [: Illegal number: yes
+Jun 09 19:02:57 av4-hardening apparmor.systemd[461]: Reloading AppArmor profiles
+Jun 09 19:02:58 av4-hardening systemd[1]: Finished apparmor.service - Load AppArmor profiles.
