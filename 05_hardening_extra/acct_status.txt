@@ -1,0 +1,10 @@
+● acct.service - Kernel process accounting
+     Loaded: loaded (/usr/lib/systemd/system/acct.service; enabled; preset: enabled)
+     Active: active (exited) since Tue 2026-06-09 14:06:42 UTC; 3min 49s ago
+       Docs: man:accton(8)
+   Main PID: 2845 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+Jun 09 14:06:42 av4-hardening systemd[1]: Starting acct.service - Kernel process accounting...
+Jun 09 14:06:42 av4-hardening accton[2845]: Turning on process accounting, file set to '/var/log/account/pacct'.
+Jun 09 14:06:42 av4-hardening systemd[1]: Finished acct.service - Kernel process accounting.

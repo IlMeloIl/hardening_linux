@@ -1,0 +1,1 @@
+Overwrite existing /var/lib/aide/aide.db.new [Yn]? 

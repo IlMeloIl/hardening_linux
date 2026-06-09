@@ -1,0 +1,10 @@
+fail2ban: instalado
+debsums: instalado
+apt-listchanges: instalado
+libpam-tmpdir: instalado
+apt-show-versions: instalado
+acct: instalado
+sysstat: instalado
+aide: instalado
+rkhunter: instalado
+chkrootkit: instalado

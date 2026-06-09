@@ -1,0 +1,25 @@
+suggestion[]=LYNIS|This release is more than 4 months old. Check the website or GitHub to see if there is an update available.|-|-|
+suggestion[]=DEB-0810|Install apt-listbugs to display a list of critical bugs prior to each APT installation.|-|-|
+suggestion[]=BOOT-5122|Set a password on GRUB boot loader to prevent altering boot configuration (e.g. boot in single user mode without password)|-|-|
+suggestion[]=BOOT-5264|Consider hardening system services|Run '/usr/bin/systemd-analyze security SERVICE' for each service|-|
+suggestion[]=AUTH-9229|Check PAM configuration, add rounds if applicable and expire passwords to encrypt with new values|-|-|
+suggestion[]=AUTH-9282|When possible set expire dates for all password protected accounts|-|-|
+suggestion[]=FILE-6310|To decrease the impact of a full /home file system, place /home on a separate partition|-|-|
+suggestion[]=FILE-6310|To decrease the impact of a full /tmp file system, place /tmp on a separate partition|-|-|
+suggestion[]=FILE-6310|To decrease the impact of a full /var file system, place /var on a separate partition|-|-|
+suggestion[]=NAME-4028|Check DNS configuration for the dns domain name|-|-|
+suggestion[]=NETW-3200|Determine if protocol 'dccp' is really needed on this system|-|-|
+suggestion[]=NETW-3200|Determine if protocol 'sctp' is really needed on this system|-|-|
+suggestion[]=NETW-3200|Determine if protocol 'rds' is really needed on this system|-|-|
+suggestion[]=NETW-3200|Determine if protocol 'tipc' is really needed on this system|-|-|
+suggestion[]=FIRE-4513|Check iptables rules to see which rules are currently not used|-|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|Port (set 22 to )|-|
+suggestion[]=LOGG-2154|Enable logging to an external logging host for archiving purposes and additional protection|-|-|
+suggestion[]=BANN-7126|Add a legal banner to /etc/issue, to warn unauthorized users|-|-|
+suggestion[]=BANN-7130|Add legal banner to /etc/issue.net, to warn unauthorized users|-|-|
+suggestion[]=FINT-4402|Use SHA256 or SHA512 to create checksums in AIDE|-|-|
+suggestion[]=TOOL-5002|Determine if automation tools are present for system management|-|-|
+suggestion[]=FILE-7524|Consider restricting file permissions|See screen output or log file|text:Use chmod to change file permissions|
+suggestion[]=KRNL-6000|One or more sysctl values differ from the scan profile and could be tweaked||Change sysctl value or disable test (skip-test=KRNL-6000:<sysctl-key>)|
+suggestion[]=HRDN-7222|Harden compilers like restricting access to root user only|-|-|
+hardening_index=81

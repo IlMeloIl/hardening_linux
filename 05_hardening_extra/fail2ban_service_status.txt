@@ -1,0 +1,14 @@
+● fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/usr/lib/systemd/system/fail2ban.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-06-09 14:08:59 UTC; 3s ago
+       Docs: man:fail2ban(1)
+   Main PID: 41020 (fail2ban-server)
+      Tasks: 5 (limit: 2263)
+     Memory: 18.7M (peak: 19.0M)
+        CPU: 133ms
+     CGroup: /system.slice/fail2ban.service
+             └─41020 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+Jun 09 14:08:59 av4-hardening systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Jun 09 14:08:59 av4-hardening fail2ban-server[41020]: 2026-06-09 14:08:59,069 fail2ban.configreader   [41020]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+Jun 09 14:08:59 av4-hardening fail2ban-server[41020]: Server ready

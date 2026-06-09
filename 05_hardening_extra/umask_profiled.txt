@@ -1,0 +1,2 @@
+# AV4 - Umask restritivo para novas sessões
+umask 027
